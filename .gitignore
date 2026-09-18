@@ -1,0 +1,40 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Data & Runtime generated artifacts
+server/data/*.db
+server/data/*.db-journal
+server/data/*.sqlite
+server/data/*.sqlite3
+server/data/photos/*
+!server/data/photos/.gitkeep
+server/data/passes/*
+!server/data/passes/.gitkeep
+server/data/logs/*
+!server/data/logs/.gitkeep
+*.log
+
+# Third-Party / Vendor References (Manuals, SDK dumps)
+Biometric/
+
+# OS and IDE Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
